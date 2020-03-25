@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "generic-log-collection-microservice/bin/python3.8",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

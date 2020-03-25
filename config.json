@@ -1,0 +1,8 @@
+{
+    "flask": {
+        "debug": "yes",
+        "host": "0.0.0.0",
+        "port": 46600,
+        "x-api-key": "keyboardcat"
+    }
+}
