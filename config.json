@@ -11,7 +11,7 @@
             "error": "/tmp/generic-log-collection-microservice/error.log"
         },
         "format": {
-            "generic": "%(asctime)s - %(message)s",
+            "generic": "%(asctime)s-%(process)d-%(levelname)s-%(message)s",
             "warning": "%(process)d-%(levelname)s-%(message)s"
         }
     }

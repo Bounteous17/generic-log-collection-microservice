@@ -15,15 +15,15 @@ def setBasicConfig(filename: str, filemode: str, format: str, level: int):
 
 def getLevel(level: LoggerLevel):
     switcher = {
-        LoggerLevel.DEBUG: {
+        LoggerLevel.DEBUG.name: {
             "level": DEBUG,
             "severity": debug
         },
-        LoggerLevel.WARN: {
+        LoggerLevel.WARN.name: {
             "level": WARN,
             "severity": warn
         },
-        LoggerLevel.ERROR: {
+        LoggerLevel.ERROR.name: {
             "level": ERROR,
             "severity": error
         }

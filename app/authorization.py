@@ -1,6 +1,7 @@
 from flask import request, abort
 from functools import wraps
 from utils.config import config
+from utils.logger import loggerWriteEvent
 
 xApiKey = config['flask']['x-api-key']
 
