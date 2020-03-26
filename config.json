@@ -6,9 +6,12 @@
         "x-api-key": "keyboardcat"
     },
     "logging": {
-        "filename": "/tmp/generic-log-collection-microservice.log",
+        "filenames": {
+            "generic": "/tmp/generic-log-collection-microservice/generic.log",
+            "error": "/tmp/generic-log-collection-microservice/error.log"
+        },
         "format": {
-            "info": "%(asctime)s - %(message)s",
+            "generic": "%(asctime)s - %(message)s",
             "warning": "%(process)d-%(levelname)s-%(message)s"
         }
     }
